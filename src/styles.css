@@ -1,0 +1,22 @@
+/* Product Card Hover Effect */
+.product-card {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+  .product-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  }
+  
+  /* Filter panel style */
+  .filter-bar {
+    border-radius: 12px;
+    background: #fff;
+  }
+  
+  .empty {
+    padding: 40px;
+    text-align: center;
+    font-size: 18px;
+    color: #777;
+  }
+  

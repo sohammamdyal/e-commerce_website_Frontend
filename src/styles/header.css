@@ -1,0 +1,30 @@
+.custom-header {
+    position: sticky;       /* Makes header sticky */
+    top: 0;                 /* Stick to top */
+    width: 100%;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.596); /* Transparent dark background */
+    backdrop-filter: blur(10px);    /* Glassmorphism effect */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* subtle shadow */
+    transition: background 0.3s;
+  }
+  
+  .custom-header .total-price {
+    background: rgba(255, 255, 255, 0.2); /* Slightly transparent box */
+    color: #fff;
+    margin-left: 20px;
+  }
+  
+  .custom-header .total-price:hover {
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  .custom-header .text-white {
+    color: #fff !important;
+  }
+  
+  .custom-header .nav-link:hover,
+  .custom-header a:hover {
+    color: #ffc107 !important; /* subtle hover effect */
+  }
+  
